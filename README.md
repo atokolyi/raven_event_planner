@@ -63,7 +63,7 @@ $EVENT_MAX = 6;
 
 1. Create favicons
 
-I like to use [favicon.io](https://favicon.io/favicon-generator/), download the created files and place them in the directory.
+I like to use [favicon.io](https://favicon.io/), download the created files and place them in the directory.
 
 2. Modify the colour scheme
 
