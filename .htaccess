@@ -1,0 +1,9 @@
+AAMaxSessionLife 1000000000
+AuthType Ucam-WebAuth
+Require valid-user
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} finder
+RewriteRule ^(.*)$ https://qmcr.soc.srcf.net/finder/$1 [R,L]
+
