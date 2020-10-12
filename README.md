@@ -1,14 +1,15 @@
 # Raven event planner
 
-Allows Cambridge University JCRs/MCRs/clubs deploy a raven-guarded online platform where they can create and join events around Cambridge.
+Allows Cambridge University JCRs/MCRs/clubs to deploy a raven-authenticated online platform where they can create and join events around Cambridge while following current [NHS guidelines](https://www.gov.uk/government/publications/coronavirus-covid-19-meeting-with-others-safely-social-distancing/coronavirus-covid-19-meeting-with-others-safely-social-distancing).
 
 
 
 ### Initial setup
 
-1. Clone the repository on to your web host (i.e. [SRCF](https://www.srcf.net/)) and rename the directory
+1. Clone the repository on to your web host (i.e. the fantastic Cambridge [SRCF](https://www.srcf.net/)) and rename the directory
 
 ```bash
+cd public_html
 git clone https://github.com/atokolyi/raven_event_planner.git
 mv raven_event_planner finder
 ```
@@ -23,10 +24,17 @@ mysql db_name < create_db.sql
 
 https://developers.google.com/maps/gmp-get-started
 
-`mkdir maps`
+```bash
+mkdir maps
+```
 
 4. Modify the .htaccess for your domain
-5. Input the private details (below)
+
+```bash
+vim .htaccess
+```
+
+4. Input the private details (below)
 
 
 
