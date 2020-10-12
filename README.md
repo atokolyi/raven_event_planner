@@ -20,7 +20,7 @@ mv raven_event_planner finder
 mysql db_name < create_db.sql
 ```
 
-3. Create a google maps API key
+3. Create a google maps API key and folder
 
 https://developers.google.com/maps/gmp-get-started
 
@@ -28,13 +28,9 @@ https://developers.google.com/maps/gmp-get-started
 mkdir maps
 ```
 
-4. Modify the .htaccess for your domain
+4. Modify the `.htaccess` for your domain
 
-```bash
-vim .htaccess
-```
-
-4. Input the private details (below)
+5. Input the private details (below)
 
 
 
